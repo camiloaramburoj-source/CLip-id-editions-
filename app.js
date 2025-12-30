@@ -543,17 +543,23 @@ document.addEventListener('DOMContentLoaded', () => {
 const teamData = {
     'bio_sarah': {
         name: 'Camilo Aramburo',
-        role: { es: 'Editor en Jefe' },
+        role: { es: 'Soñador' },
         bio: { 
-            es: 'Camilo es el guardián de la voz de Clip ID. Con una década de experiencia en periodismo cultural, asegura que cada historia sea tan impactante como auténtica.',
-        },
+            es: `Camilo Aramburo Jaramillo es un músico y soñador colombiano. Su amor por la música empezó con la guitarra a los once años, tomando clases particulares y tratando de aprender “Música ligera” de Soda Stereo. Este amor fue cambiando, y su interés por la música clásica fue creciendo. Empezó sus estudios formales como músico en la Fundación Orquesta Sinfónica Juvenil de Colombia y cambió la guitarra por el fagot, instrumento que lo cautivó para seguir el camino de la música. Continuó con sus estudios profesionales en la Universidad Nacional de Colombia y culminó su pregrado en The University of Southern Mississippi (USM), Estados Unidos. Actualmente, está terminando sus estudios de maestría en la Universidad McGill, en Canadá.
+Camilo ha participado en diferentes agrupaciones, como la Banda Sinfónica Juvenil de Colombia, la Orquesta Sinfónica de la Universidad Nacional, la Symphony Orchestra de USM, la McGill Symphony Orchestra, el Ensemble Obiora de Montreal y la Filarmónica Joven de Colombia. Además, es un apasionado de la música de cámara.
+Hincha de Millos, aficionado al ánime y a Tu voz estéreo. Padre de dos gatos: Lunes y Martes, los cuales son la luz de sus ojos. 
+`},
         img: 'assets/sarah-owl.png'
     },
     'bio_david': {
         name: 'Felipe Aramburo',
-        role: { es: 'Desarrollador Principal' },
+        role: { es: 'Biólogo' },
         bio: { 
-            es: 'Felipe construye la experiencia digital de Clip ID. Es un mago del código que prioriza la velocidad, la accesibilidad y el diseño centrado en el usuario.',
+            es: `Felipe Aramburo Jaramillo es biólogo, maestro en Ciencias Biológicas y candidato a doctor en Ingeniería. Su trabajo se centra en estudiar cómo la desaparición de animales y la modificación del paisaje afectan la circulación de enfermedades. Le interesa pensar los sistemas como conjuntos de relaciones y no como listas de variables.
+Además de investigar, escribe. No como extensión divulgativa de la ciencia, sino como otro modo de examinar el espacio, la memoria y las formas de vida que se adaptan o se rompen. El territorio aparece en sus textos como una condición material, no como escenario.
+Lee con atención y desconfía de las soluciones limpias. Prefiere los procesos largos, las preguntas que no cierran del todo y los cruces entre disciplinas cuando sirven para entender mejor un problema. Para él, tanto la investigación como la escritura son prácticas de observación sostenida.
+
+`,
         },
         img: 'assets/david-cat.png'
     },
@@ -571,10 +577,12 @@ Hincha de Independiente Santa Fe, aficionado al tejo y la rana, y deportista aco
     },
     'bio_alejandro': {
         name: 'Alejandro Merlano',
-        role: { es: 'Visionario '},
+        role: { es: 'Hincha de la Mechita '},
         bio: { 
-            es: 'Alejandro traza el futuro de Clip ID. Su enfoque en la estrategia de contenido asegura que la revista se mantenga a la vanguardia de las tendencias culturales.',
-
+            es: `Alejandro Merlano Aramburo es editor de libros con experiencia en la Pontificia Universidad Javeriana, la Universidad Nacional, la Universidad Distrital Francisco José de Caldas, Agrosavia y la Biblioteca Nacional de Colombia.
+Apasionado por la lectura y la cumbia villera.
+Dueño de Raqqa, una de las mascotas oficiales de Clip ID, y, sobre todas las cosas, hincha de la Mechita. 
+`
         },
         img: 'assets/alejandro-wolf.png'
     }
